@@ -1,0 +1,35 @@
+/* Bird */
+.bird {
+	position: absolute;
+  	bottom: 112px;
+	left: 50%;
+	width: 34px;
+	height: 34px;  
+	margin-left:  -12px;
+  	background-image: url(../images/bird1.png); 
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	transition: transform 0.1s ease;
+	will-change:  transform;
+  
+}
+
+.flying {
+  animation-name: fly;
+  animation-duration: .4s;
+  animation-timing-function: steps(1);  /* step: 把動畫分幾段 */
+  animation-direction: reverse;  /* 動畫反向運行 */
+  animation-iteration-count: infinite; 
+}
+
+@keyframes fly {
+	0% {
+		background-image: url(../images/bird1.png); 
+	}
+	33% {
+		background-image: url(../images/bird2.png); 
+	}
+	66% {
+		background-image: url(../images/bird3.png); 
+	}
+}

@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+.background {
+	position: relative;
+	background-color: #282c34;
+	min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Luxurious Roman', cursive;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.container {
+	position: relative;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+	top: 20px;
+    padding: 0 40px;
+}
+
+.instruction-container {
+    border-radius: 8px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 40%;
+    height: auto;
+}
+
+.instruction-container:hover{
+    border-color: white;
+}
+
+.instruction {
+    color: white;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+
+.image-container{
+    display: flex;
+	flex-direction: column;
+    margin-left: 40px;
+}
+
+.image{
+    border-radius: 60px;
+    height: 250px;
+    border: 15px solid rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+}
+
+.btn-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top:20px;
+}
+
+.btn {
+    padding: 15px 25px 15px 25px;
+    border-radius: 3px;
+    border-width: 5px;
+    background-color: rgba(129, 129, 129, 0.2);
+    color: white;
+    margin: 0 40px;
+}
+
+.btn:hover{
+    border-color: white;
+}

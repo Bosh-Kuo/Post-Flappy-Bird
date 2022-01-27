@@ -1,0 +1,32 @@
+/* Pipe */
+.piping {
+	position: absolute;
+	top: 0;
+	right: -52px;  /*初始位置埋進畫面一個pipe的寬度*/
+	width: 52px;  /*pipe寬度*/
+	height: 100%;  /*跟遊戲畫面一樣長*/
+}
+
+.piping-upper {
+	position: absolute;
+	top: -270px;  /*上排pipe埋進畫面頂部的長度*/
+	right: 0;  /*初始位置埋進畫面一個pipe的寬度*/
+	width: 52px;
+	height: 270px;
+	background-image: url(../images/pipeUpper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+	will-change: transform;
+}
+
+.piping-below {
+	position: absolute;
+	bottom: -130px;  /*下排pipe埋進畫面底部的長度(管子長242px, 地板長112px，所以樣向下埋130px)*/
+	right: 0;  /*初始位置埋進畫面一個pipe的寬度*/
+	width: 52px;
+	height: 242px;
+	background-image: url(../images/pipeLower.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+	will-change: transform;
+}
