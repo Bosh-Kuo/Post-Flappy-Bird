@@ -12,6 +12,12 @@ I use the shoulder key points and wrist key points to controll the flappy bird. 
 Furthermore, this game will use you web-cam to detect your pose. But don't worry, even though you don't have web-cam you still can use mouse to play the game. Please follow the instruction and enjoy the game !
 ![demo](./demo/pose-flappy-bird-demo.gif) 
 
+## **[Demo](https://post-flappy-bird.netlify.app/)**
+demo link: https://post-flappy-bird.netlify.app/
+
+Please follow the game instruction and enjoy the game!
+
+
 ## **Install**
 1. clone this repo
 2. Install frontend package  
